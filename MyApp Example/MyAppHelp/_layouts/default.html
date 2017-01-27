@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	{% include head.html %}
+	<!-- This only shows the banner if we're on the title page. Instead, always show the banner by default.
+	<body class="{{ page.layout }}{% if page.layout == 'title-page' %} show-banner{% endif %}"> 
+	-->
+	<body class="{{ page.layout }} show-banner">
+		{% include header.html %}
+		<main>
+			{{ content }}
+		</main>
+		{% include footer.html %}
+	</body>
+</html>
