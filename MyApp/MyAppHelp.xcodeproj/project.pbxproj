@@ -7,30 +7,28 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		1365725D1C26230700A07BB7 /* JekyllHelp.help */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JekyllHelp.help; sourceTree = BUILT_PRODUCTS_DIR; };
-		1365726B1C26280C00A07BB7 /* book-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-icon.png"; sourceTree = "<group>"; };
-		136572A51C26EBA000A07BB7 /* _English.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _English.lproj; sourceTree = "<group>"; };
-		136572A71C26EBBA00A07BB7 /* Help-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Help-Info.plist"; sourceTree = "<group>"; };
-		136572A91C26EC1000A07BB7 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		136572AA1C26EC1B00A07BB7 /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
-		136572AB1C26EC4600A07BB7 /* jekyll-server.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "jekyll-server.command"; sourceTree = "<group>"; };
-		136572AC1C26EC6100A07BB7 /* _includes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _includes; sourceTree = "<group>"; };
-		136572AD1C26EC6B00A07BB7 /* _layouts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _layouts; sourceTree = "<group>"; };
-		136572AE1C26EC7200A07BB7 /* _plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _plugins; sourceTree = "<group>"; };
-		136572AF1C26EC7A00A07BB7 /* _sass */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _sass; sourceTree = "<group>"; };
-		136572B01C26EC8400A07BB7 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
-		136572B11C26EC9500A07BB7 /* nav.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = nav.js; sourceTree = "<group>"; };
+		1365725D1C26230700A07BB7 /* MyAppHelp.help */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppHelp.help; sourceTree = BUILT_PRODUCTS_DIR; };
+		1365726B1C26280C00A07BB7 /* book-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-icon.png"; path = "MyAppHelp/book-icon.png"; sourceTree = "<group>"; };
+		136572A71C26EBBA00A07BB7 /* Help-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Help-Info.plist"; path = "MyAppHelp/Help-Info.plist"; sourceTree = "<group>"; };
+		69B75AE51E3C303700D17522 /* _English.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _English.lproj; path = MyAppHelp/_English.lproj; sourceTree = "<group>"; };
+		69B75AE61E3C304A00D17522 /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = _config.yml; path = MyAppHelp/_config.yml; sourceTree = "<group>"; };
+		69B75AE71E3C304A00D17522 /* _includes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _includes; path = MyAppHelp/_includes; sourceTree = "<group>"; };
+		69B75AE81E3C304A00D17522 /* _layouts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _layouts; path = MyAppHelp/_layouts; sourceTree = "<group>"; };
+		69B75AE91E3C304A00D17522 /* _plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _plugins; path = MyAppHelp/_plugins; sourceTree = "<group>"; };
+		69B75AEA1E3C304A00D17522 /* _sass */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _sass; path = MyAppHelp/_sass; sourceTree = "<group>"; };
+		69B75AEC1E3C304A00D17522 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = MyAppHelp/css; sourceTree = "<group>"; };
+		69B75AEE1E3C304A00D17522 /* jekyll-server.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "jekyll-server.command"; path = "MyAppHelp/jekyll-server.command"; sourceTree = "<group>"; };
+		69B75AEF1E3C304A00D17522 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = MyAppHelp/Makefile; sourceTree = "<group>"; };
+		69B75AF01E3C304A00D17522 /* nav.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = nav.js; path = MyAppHelp/nav.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		136572521C2622D000A07BB7 = {
 			isa = PBXGroup;
 			children = (
-				136572A71C26EBBA00A07BB7 /* Help-Info.plist */,
-				1365726B1C26280C00A07BB7 /* book-icon.png */,
-				136572A51C26EBA000A07BB7 /* _English.lproj */,
-				136572AB1C26EC4600A07BB7 /* jekyll-server.command */,
-				136572A41C26EB8400A07BB7 /* JekyllHelp Support Files */,
+				69B75AE51E3C303700D17522 /* _English.lproj */,
+				69B75AF11E3C30AE00D17522 /* MyAppHelp */,
+				136572A41C26EB8400A07BB7 /* Supporting Files */,
 				1365725E1C26230700A07BB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,43 +36,53 @@
 		1365725E1C26230700A07BB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1365725D1C26230700A07BB7 /* JekyllHelp.help */,
+				1365725D1C26230700A07BB7 /* MyAppHelp.help */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		136572A41C26EB8400A07BB7 /* JekyllHelp Support Files */ = {
+		136572A41C26EB8400A07BB7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				136572A91C26EC1000A07BB7 /* Makefile */,
-				136572AA1C26EC1B00A07BB7 /* _config.yml */,
-				136572AE1C26EC7200A07BB7 /* _plugins */,
-				136572AD1C26EC6B00A07BB7 /* _layouts */,
-				136572AC1C26EC6100A07BB7 /* _includes */,
-				136572AF1C26EC7A00A07BB7 /* _sass */,
-				136572B01C26EC8400A07BB7 /* css */,
-				136572B11C26EC9500A07BB7 /* nav.js */,
+				69B75AE61E3C304A00D17522 /* _config.yml */,
+				69B75AE71E3C304A00D17522 /* _includes */,
+				69B75AE81E3C304A00D17522 /* _layouts */,
+				69B75AE91E3C304A00D17522 /* _plugins */,
+				69B75AEA1E3C304A00D17522 /* _sass */,
+				69B75AEC1E3C304A00D17522 /* css */,
+				69B75AEE1E3C304A00D17522 /* jekyll-server.command */,
+				69B75AEF1E3C304A00D17522 /* Makefile */,
+				69B75AF01E3C304A00D17522 /* nav.js */,
 			);
-			name = "JekyllHelp Support Files";
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69B75AF11E3C30AE00D17522 /* MyAppHelp */ = {
+			isa = PBXGroup;
+			children = (
+				136572A71C26EBBA00A07BB7 /* Help-Info.plist */,
+				1365726B1C26280C00A07BB7 /* book-icon.png */,
+			);
+			name = MyAppHelp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1365725C1C26230700A07BB7 /* JekyllHelp */ = {
+		1365725C1C26230700A07BB7 /* MyAppHelp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 136572611C26230700A07BB7 /* Build configuration list for PBXNativeTarget "JekyllHelp" */;
+			buildConfigurationList = 136572611C26230700A07BB7 /* Build configuration list for PBXNativeTarget "MyAppHelp" */;
 			buildPhases = (
 				1365725B1C26230700A07BB7 /* Resources */,
-				136572661C26267700A07BB7 /* Run Script */,
+				136572661C26267700A07BB7 /* Jekyll Run Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JekyllHelp;
+			name = MyAppHelp;
 			productName = JekyllHelp;
-			productReference = 1365725D1C26230700A07BB7 /* JekyllHelp.help */;
+			productReference = 1365725D1C26230700A07BB7 /* MyAppHelp.help */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -90,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 136572561C2622D000A07BB7 /* Build configuration list for PBXProject "JekyllHelp" */;
+			buildConfigurationList = 136572561C2622D000A07BB7 /* Build configuration list for PBXProject "MyAppHelp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -102,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1365725C1C26230700A07BB7 /* JekyllHelp */,
+				1365725C1C26230700A07BB7 /* MyAppHelp */,
 			);
 		};
 /* End PBXProject section */
@@ -118,14 +126,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		136572661C26267700A07BB7 /* Run Script */ = {
+		136572661C26267700A07BB7 /* Jekyll Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Run Script";
+			name = "Jekyll Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Help-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MyAppHelp/Help-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -204,7 +212,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		136572561C2622D000A07BB7 /* Build configuration list for PBXProject "JekyllHelp" */ = {
+		136572561C2622D000A07BB7 /* Build configuration list for PBXProject "MyAppHelp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				136572581C2622D000A07BB7 /* Release */,
@@ -212,7 +220,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		136572611C26230700A07BB7 /* Build configuration list for PBXNativeTarget "JekyllHelp" */ = {
+		136572611C26230700A07BB7 /* Build configuration list for PBXNativeTarget "MyAppHelp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				136572631C26230700A07BB7 /* Release */,
