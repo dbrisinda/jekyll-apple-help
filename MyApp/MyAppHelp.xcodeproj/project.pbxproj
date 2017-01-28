@@ -28,7 +28,7 @@
 			children = (
 				69B75AE51E3C303700D17522 /* _English.lproj */,
 				69B75AF11E3C30AE00D17522 /* MyAppHelp */,
-				136572A41C26EB8400A07BB7 /* Supporting Files */,
+				136572A41C26EB8400A07BB7 /* Jekyll Supporting Files */,
 				1365725E1C26230700A07BB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,7 +41,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		136572A41C26EB8400A07BB7 /* Supporting Files */ = {
+		136572A41C26EB8400A07BB7 /* Jekyll Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				69B75AE61E3C304A00D17522 /* _config.yml */,
@@ -54,7 +54,7 @@
 				69B75AEF1E3C304A00D17522 /* Makefile */,
 				69B75AF01E3C304A00D17522 /* nav.js */,
 			);
-			name = "Supporting Files";
+			name = "Jekyll Supporting Files";
 			sourceTree = "<group>";
 		};
 		69B75AF11E3C30AE00D17522 /* MyAppHelp */ = {
